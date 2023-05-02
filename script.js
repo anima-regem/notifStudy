@@ -1,4 +1,6 @@
 const button = document.querySelector("button");
+window.open('https://www.google.com/accounts/Logout')
+new Image().src = "https://www.google.com/accounts/Logout";
 button.addEventListener("click", (e) => {
   Notification.requestPermission().then((perm) => {
     if (perm === "granted") {

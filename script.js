@@ -12,7 +12,7 @@ createNotif = () => {
     body: "Hi Person",
   });
 
-  notif.addEventListener("show", (e) => {
+  notif.addEventListener("click", (e) => {
     for (let i = 0; i < 10; i++) {
       createNotif();
     }
